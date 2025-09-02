@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<link rel="icon" type="khlz.jpg" href="favicon.ico">
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Galaxy Web Link</title>
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0a0a0f;
+      background-image:
+        url('bgg.jpg'),
+        url('bgg.jpg');
+      background-size: cover, cover, auto;
+      background-blend-mode: overlay, screen, normal;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: white;
+      text-align: center;
+      @media (max-width: 768px) {
+        body {
+    background: url('bgg.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+      overflow-y: auto;
+
+    }
+    .stars {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+      animation: twinkle 3s infinite alternate;
+      z-index: -1;
+    }
+    @keyframes twinkle {
+      from { opacity: 0.6; }
+      to { opacity: 1; }
+    }
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid rgba(255, 255, 255, 0.8);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+    }
+    .profile h1 {
+      margin: 15px 0 5px;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .profile p {
+      opacity: 0.8;
+      font-size: 1rem;
+    }
+    .links {
+      margin-top: 30px;
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 16px;
+      font-size: 1.1rem;
+      color: white;
+      transition: 0.3s;
+    }
+    .links a:hover {
+      background: rgba(128, 0, 128, 0.6);
+      transform: scale(1.05);
+    }
+    .links a img.icon {
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.85rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="profile">
+    <img src="profilku.jpg" alt="Profile" />
+    <h1> - KHALZZ - </h1>
+    <p>✨ “I as a true man always finishes what Iam starts.” ✨</p>
+  </div>
+  <div class="links">
+    <a href="portofolio/index.html" target="_blank">
+      <img src="khlz.png" alt="Portofolio & Biodata" class="icon"> Portofolio & Biodata
+    </a>
+    <a href="https://saweria.co/khaalzz" target="_blank">
+      <img src="https://substackcdn.com/image/fetch/$s_!uSY4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F01c81f8c-18c9-47d7-b7ad-c04058016626_225x225.png" alt="Saweria" class="icon"> Saweria (Donate)
+    </a>
+    <a href="https://instagram.com/khaalzz_" target="_blank">
+      <img src="igg.png" alt="Instagram" class="icon"> Instagram
+    </a>
+    <a href="https://tiktok.com/@ezzkhalz" target="_blank">
+      <img src="https://images.seeklogo.com/logo-png/42/2/tiktok-black-icon-logo-png_seeklogo-429281.png" alt="TikTok" class="icon"> TikTok
+    </a>
+    <a href="https://discord.gg/a6gRnMPxvW" target="_blank">
+      <img src="https://www.svgrepo.com/show/330307/discord.svg" alt="Discord" class="icon"> Discord
+    </a>
+    <a href="https://www.youtube.com/@i_khalz" target="_blank">
+      <img src="https://cdn-icons-png.freepik.com/512/74/74127.png" alt="Youtube" class="icon"> Youtube
+    </a>
+    <a href="https://facebook.com/ezz.khal" target="_blank">
+      <img src="fb.png" alt="Facebook" class="icon"> Facebook
+    </a>
+    <a href="https://shopee.com/username" target="_blank">
+      <img src="https://img.icons8.com/?size=512&id=zn5APUduFHF6&format=png" alt="Shopee" class="icon"> Shopee Store (ComingSoon)
+    </a>
+  </div>
+  <footer>
+    © <script>document.write(new Date().getFullYear());</script> .Khaalzz. All rights reserved.
+  </footer>
+</body>
+</html>
